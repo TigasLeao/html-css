@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        div{
+            display: inline-block;
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display:block
+        }
+        div:hover {
+            background-color: rgba(173, 216, 230, 0.71);
+            
+        }
+        h1#cap16 {
+            background-color: aqua;
+            width: 200px;
+            height: 150px;
+            border-width: 15px;
+            border-style: solidf ;
+            border-color: brown;
+        }
+
+        h3 {
+            height: 130px;
+            width: 130px;
+
+    
+            border: 5px solid darkgoldenrod;
+            
+            padding: 10px 30px;
+
+            text-align: center;
+        }
+
+        a {
+            border-width: 2px;
+            border-color: blueviolet;
+            border-style: double;
+            padding: 8px 10px 10px 10px;
+            margin: auto;
+        }
+    </style>
+    <title>Capítulo 15 e 16</title>
+</head>
+<body>
+    <h1>Capítulo 15</h1>
+    <div id="01">01
+        <p>Oi.</p>
+    </div>
+    <div id="02">02
+        <p>Estou sozinho.</p>
+    </div>
+    <div id="03">03</div>
+    <input type="text">
+    <input type="button">
+    <br>
+    <hr>
+    <h1 class="cap16" id="cap16">Capítulo 16</h1>
+    <h2>Modelos de caixas</h2>
+    <hr>
+    <h3>Caixa Box-level <br> <input type="text"></h3>
+    <p>Parágrafos são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline</a>. Vamos ver como funfa</p>
+    
+
+</body>
+</html>

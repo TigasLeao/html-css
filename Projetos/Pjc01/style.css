@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(155, 155, 246);
+}   
+
+mark {
+    background-color: blue;
+}

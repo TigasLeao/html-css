@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.botoes {
+    margin:auto;
+    text-align: center;
+    overflow: hidden;
+}
+.btn {
+    width: auto;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 6px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 8px 20px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.btn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn:focus { outline: none; }
+.btn.preto { background-image: linear-gradient(to right, #020202, #485563, #1a252b, #5d586d); }
+.btn.azul  { background-image: linear-gradient(to right, #005593, #156bff, #04befe, #124da9); }
+.btn.vermelho { background-image: linear-gradient(to right, #d20000, #ff6262, #f00 , #FFB395); }
+.btn.verde { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+.btn.amarelo { background-image: linear-gradient(to right, #e6c307, #fff344, #efcc43, #e0e716); }
+.btn.roxo { background-image: linear-gradient(to right, #b466ea, #6217af, #B365E9, #6217AF); }
+.btn.rosa { background-image: linear-gradient(to right, #f4a1a1, #fe5cc6, #e98788, #d33b9f); }

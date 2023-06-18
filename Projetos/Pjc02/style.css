@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: london;
+    src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/Olondon_.otf') format('opentype');
+}
+body {
+    background-image: linear-gradient(to right, #353940, #B0B5BF);
+}
+
+main {
+    background-color: #7D828C;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+/* style="font-family: london; font-size: 3.5em;" */
+
+h1 {
+    font-family: london;
+    font-size: large;
+}
+
+h1#principal {
+    background-color: #737478c3;
+    font-size: 3.5em;
+    text-align: center;
+}
